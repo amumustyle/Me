@@ -28,15 +28,7 @@ h1,body,html{
 		.nav ul{width: 30%; float: right;margin-right: 5%;font-size: 1.5em;}
 	    .nav li{float: left;margin-left: 5%;padding: 1em;}
 	    .nav a{display: block;}
-	    /*.line{
-	    	display: block;
-	    	width: 2px; 
-	    	opacity: 0; 
-	    	border-bottom: 3px solid blue;
-	    	margin-bottom: 0;
-	    	transition:1s;
-	    }
-	    .nav li:hover .line{width: 20px;opacity: 1;}*/
+	
 		.logo img{width: 150px;height: 150px;border-radius: 50%;}
 		#container,.section{
 			height: 100%;
@@ -91,22 +83,24 @@ h1,body,html{
 			transform: translateY(-50%);
 			text-align: center;
 		}
-		/*.r{
-			position: absolute;
-			left: 35%;
-			width: 50%;
-		}*/
-		#skill{width: 80%;padding: 10%;font-size: 1.5em;}
-		#skill h1{width: 100%;background: rgba(225,225,225,0.3);text-align: center;font-size: 2em;}
-		#skill div{
+
+		#skill{width: 80%;padding: 5% 10%;font-size: 1.5em;text-align: center;}
+		#skill h1{width: 100%;margin-top: 5%; background: rgba(225,225,225,0.3);text-align: center;font-size: 2em;}
+		#item1,#item2,#item3,#item4{
 			background-color: white;
 			width: 1%;
 			padding: 1%;
 			margin-top: 2%;
 			background: rgba(225,225,225,0.3);
+			position: relative;
+			text-align: left;
 		}
-		/*#item1,#item2,#item3,#item4{display: block; width: 1%; padding: 1%;background-color: yellow;}
-		#item1{}*/
+		.item1,.item2,.item3,.item4{display: none;border-radius: 8px;}
+		.item1,.item2,.item3,.item4{position: absolute;top: 0;left: 30%;background: rgba(0,0,0,0.5);padding: 1.5%;}
+		#item1:hover .item1{display: block;}
+		#item2:hover .item2{display: block;}
+		#item3:hover .item3{display: block;}
+		#item4:hover .item4{display: block;}
 		#pages{
 			position:fixed;
 			right: 10px;
