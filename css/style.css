@@ -99,16 +99,24 @@
         .item3{top:58.5%;}
         .item4{top:69%;}
 		#section3{
-			color: #008283;
+			color: white;
 			background-image: url(../img/7.jpg);
 			text-shadow:1px 1px 1px #fff;
+			padding: 10% 20%;
 		}
-		#section0 p{
+		#section4{
+			color: #008283;
+			background-image: url(../img/4.jpg);
+			text-shadow:1px 1px 1px #fff;
+			text-align: center;
+			padding-top: 20%;
+		}
+		/*#section0 p{
 			color: #F6D7F5;
 		}
 		#section3 p{
 			color: #00A3AF;
-		}
+		}*/
 		.left{
 			float: left;
 		}
